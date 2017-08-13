@@ -1,0 +1,68 @@
+
+/*Celulares - Col S*/
+@media only screen and (max-width: 600px) {
+   #foto-acerca-de-mi {
+     width: 300px;
+     height: 300px;
+   }
+
+   .demo{
+      width: 100%;
+      font-size:20px;
+      height: 142px;
+      line-height: 142px;
+   }
+   .demo span:nth-child(2n+1){
+      background: black;
+      font-size:30px;
+      color:#fff;
+      padding:0 10px;
+   }
+
+
+}
+
+
+
+/*//Tablets -Col M*/
+@media only screen and (min-width: 602px and max-width: 992px) {
+
+  .grafica-individual {
+    margin-left: 5%;
+  }
+
+  .demo{
+     width: 100%;
+     font-size:40px;
+     height: 142px;
+     line-height: 142px;
+  }
+
+.demo span:nth-child(2n+1){
+   background: black;
+   font-size:50px;
+   color:#fff;
+   padding:0 10px;
+ }
+}
+
+/*//Laptop -Col L*/
+@media only screen and (min-width: 993px) {
+    .grafica-individual {
+      margin-left: 30%;
+    }
+
+    .demo{
+       width: 100%;
+       font-size:40px;
+       height: 142px;
+       line-height: 142px;
+    }
+
+    .demo span:nth-child(2n+1){
+       background: black;
+       font-size:50px;
+       color:#fff;
+       padding:0 10px;
+    }
+}
